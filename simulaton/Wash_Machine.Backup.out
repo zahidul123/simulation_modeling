@@ -1,0 +1,57 @@
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 5/27/2018
+Analyst: akteruzzaman295@gmail.com                                   Model revision date: 5/27/2018
+
+Replication ended at time      : 14.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .05571     (Corr)     .05336     .05816        431    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        431    
+Entity 1.WaitTime                           .12159     (Corr)     .00000     .44273        431    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        431    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        431    
+Entity 1.TotalTime                          .17730     (Corr)     .05343     .49765        431    
+Wash_Machine2.Queue.WaitingTime             .15091     (Insuf)    .00000     .44273        218    
+Wash_Machine1.Queue.WaitingTime             .09116     (Insuf)    .00000     .29749        214    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                5.4601     (Corr)     .00000     14.000     1.0000    
+WMC_1.NumberBusy                            .85034     (Insuf)    .00000     1.0000     .00000    
+WMC_1.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+WMC_1.Utilization                           .85034     (Insuf)    .00000     1.0000     .00000    
+WMC_2.NumberBusy                            .86649     (Insuf)    .00000     1.0000     1.0000    
+WMC_2.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+WMC_2.Utilization                           .86649     (Insuf)    .00000     1.0000     1.0000    
+Wash_Machine2.Queue.NumberInQueue           2.3498     (Corr)     .00000     8.0000     .00000    
+Wash_Machine1.Queue.NumberInQueue           1.3935     (Corr)     .00000     6.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           432.00    
+Entity 1.NumberOut                          431.00    
+WMC_1.NumberSeized                          214.00    
+WMC_1.ScheduledUtilization                  .85034    
+WMC_2.NumberSeized                          218.00    
+WMC_2.ScheduledUtilization                  .86649    
+System.NumberOut                            431.00    
+
+
+Simulation run time: 0.48 minutes.
+Simulation run complete.

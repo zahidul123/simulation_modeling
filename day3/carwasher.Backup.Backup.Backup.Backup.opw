@@ -1,0 +1,12 @@
+[RESOURCES]
+washserver_2
+washserver_1
+[VARIABLES]
+wash server one.NumberIn
+wash server two.NumberOut
+where you wash.NumberOut True
+wash server two.NumberIn
+Initiate.NumberOut
+Close.NumberOut
+wash server one.NumberOut
+where you wash.NumberOut False

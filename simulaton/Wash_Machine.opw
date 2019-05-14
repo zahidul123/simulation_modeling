@@ -1,0 +1,12 @@
+[RESOURCES]
+WMC_1
+WMC_2
+[VARIABLES]
+Wash_Machine2.NumberOut
+Wash_Machine1.NumberIn
+Wash_Machine1.NumberOut
+Check.NumberOut True
+END.NumberOut
+Wash_Machine2.NumberIn
+Start.NumberOut
+Check.NumberOut False

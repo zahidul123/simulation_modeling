@@ -1,0 +1,57 @@
+
+                                      ARENA Simulation Results
+                                    DIU-PC - License: STUDENT   
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 5/20/2018
+Analyst: DIU                                                         Model revision date: 5/20/2018
+
+Replication ended at time      : 14.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .05571     1.7003E-04 .05305     .05833        411    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        411    
+Entity 1.WaitTime                           .09925     (Corr)     .00000     .44867        411    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        411    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        411    
+Entity 1.TotalTime                          .15496     (Corr)     .05310     .50375        411    
+Wash_Machine_2.Queue.WaitingTime            .11603     (Insuf)    .00000     .44867        201    
+Wash_Machine_1.Queue.WaitingTime            .08358     (Insuf)    .00000     .29666        212    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                4.5727     (Corr)     .00000     12.000     3.0000    
+WM_1.NumberBusy                             .84096     (Insuf)    .00000     1.0000     1.0000    
+WM_1.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+WM_1.Utilization                            .84096     (Insuf)    .00000     1.0000     1.0000    
+WM_2.NumberBusy                             .79921     (Insuf)    .00000     1.0000     1.0000    
+WM_2.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+WM_2.Utilization                            .79921     (Insuf)    .00000     1.0000     1.0000    
+Wash_Machine_2.Queue.NumberInQueue          1.6657     (Corr)     .00000     8.0000     .00000    
+Wash_Machine_1.Queue.NumberInQueue          1.2668     .40130     .00000     6.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           414.00    
+Entity 1.NumberOut                          411.00    
+WM_1.NumberSeized                           212.00    
+WM_1.ScheduledUtilization                   .84096    
+WM_2.NumberSeized                           201.00    
+WM_2.ScheduledUtilization                   .79921    
+System.NumberOut                            411.00    
+
+
+Simulation run time: 0.10 minutes.
+Simulation run complete.

@@ -1,0 +1,57 @@
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 5/27/2018
+Analyst: Windows User                                                Model revision date: 5/27/2018
+
+Replication ended at time      : 14.0 Hours (Monday, May 21, 2018, 05:44:07)
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .09120     (Insuf)    .08169     .09997        266    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        266    
+Entity 1.WaitTime                           .34223     (Insuf)    .00000     1.0470        266    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        266    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        266    
+Entity 1.TotalTime                          .43343     (Insuf)    .08200     1.1414        266    
+wash server two.Queue.WaitingTime           .29426     (Insuf)    .00000     .77832        134    
+wash server one.Queue.WaitingTime           .38887     (Insuf)    .00000     1.0470        133    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                8.2577     (Corr)     .00000     22.000     2.0000    
+washserver_2.NumberBusy                     .87949     (Insuf)    .00000     1.0000     .00000    
+washserver_2.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+washserver_2.Utilization                    .87949     (Insuf)    .00000     1.0000     .00000    
+washserver_1.NumberBusy                     .85853     (Insuf)    .00000     1.0000     1.0000    
+washserver_1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+washserver_1.Utilization                    .85853     (Insuf)    .00000     1.0000     1.0000    
+wash server two.Queue.NumberInQueue         2.8164     (Insuf)    .00000     9.0000     .00000    
+wash server one.Queue.NumberInQueue         3.7032     (Insuf)    .00000     12.000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           268.00    
+Entity 1.NumberOut                          266.00    
+washserver_2.NumberSeized                   134.00    
+washserver_2.ScheduledUtilization           .87949    
+washserver_1.NumberSeized                   133.00    
+washserver_1.ScheduledUtilization           .85853    
+System.NumberOut                            266.00    
+
+
+Simulation run time: 0.42 minutes.
+Simulation run complete.

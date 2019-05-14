@@ -1,0 +1,12 @@
+[RESOURCES]
+WM_1
+WM_2
+[VARIABLES]
+Decide.NumberOut True
+Wash_Machine_1.NumberOut
+Decide.NumberOut False
+Wash_Machine_2.NumberIn
+Wash_Machine_2.NumberOut
+Wash_Machine_1.NumberIn
+Arrival.NumberOut
+Exit.NumberOut
